@@ -1,0 +1,11 @@
+.benchmarks
+.DS_Store
+.vscode
+*.exe
+*.idea
+*.syso
+*.log
+*.forensicstore
+*.forensicstore-wal
+*.forensicstore-shm
+*.forensicstore.zip
