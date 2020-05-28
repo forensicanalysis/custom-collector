@@ -39,7 +39,7 @@ func main() {
 			Type: "COMMAND",
 			Attributes: goartifacts.Attributes{
 				Cmd:  "autorunsc.exe",
-				Args: []string{"-x"},
+				Args: []string{"-x", "-accepteula"},
 			},
 		}},
 		SupportedOs: []string{"Windows"},
