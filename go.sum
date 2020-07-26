@@ -52,6 +52,7 @@ github.com/forensicanalysis/artifactlib v0.14.0 h1:rFrXvpsIdqu+YDk183kYwMFXFv/My
 github.com/forensicanalysis/artifactlib v0.14.0/go.mod h1:Ff5eslnDDuG/v5M5cSfqRrJM2O++lkCJuTco+e05zuY=
 github.com/forensicanalysis/artifactsgo v0.1.1 h1:QmtqYn1n/rfUNSmB1D8yL3+4qI5o1I7QZfWkEwV/PRI=
 github.com/forensicanalysis/artifactsgo v0.1.1/go.mod h1:MMPrG+vF07jjm7GWgVF1E2l3T0l/71Tza/4IdwyzdEM=
+github.com/forensicanalysis/artifactsgo v0.6.4 h1:M9pNz+oWDN/tqXEZiqw4JlI2FST2MuNNTgrqDAAptJo=
 github.com/forensicanalysis/artifactsgo v0.6.4/go.mod h1:MMPrG+vF07jjm7GWgVF1E2l3T0l/71Tza/4IdwyzdEM=
 github.com/forensicanalysis/artifactsgo v0.6.6 h1:rMI7pJ7BD5+qGQywtpyWGqGO3fdYYRDvJruj2hJ/48M=
 github.com/forensicanalysis/artifactsgo v0.6.6/go.mod h1:MMPrG+vF07jjm7GWgVF1E2l3T0l/71Tza/4IdwyzdEM=
@@ -198,6 +199,7 @@ github.com/spf13/afero v1.2.2 h1:5jhuqJyZCZf2JRofRvN/nIFgIWNzPa3/Vz8mYylgbWc=
 github.com/spf13/afero v1.2.2/go.mod h1:9ZxEEn6pIJ8Rxe320qSDBk6AsU0r9pR7Q4OcevTdifk=
 github.com/spf13/afero v1.2.3-0.20200410222221-ceb6a5e37254 h1:DM3BGx+tIoZDax/lyhn2OXx7m5Vf+OEeF1wTQ4dIDIQ=
 github.com/spf13/afero v1.2.3-0.20200410222221-ceb6a5e37254/go.mod h1:5KUK8ByomD5Ti5Artl0RtHeI5pTF7MIDuXL3yY520V4=
+github.com/spf13/afero v1.3.2/go.mod h1:5KUK8ByomD5Ti5Artl0RtHeI5pTF7MIDuXL3yY520V4=
 github.com/spf13/cast v1.3.0/go.mod h1:Qx5cxh0v+4UWYiBimWS+eyWzqEqokIECu5etghLkUJE=
 github.com/spf13/cobra v0.0.5/go.mod h1:3K3wKZymM7VvHMDS9+Akkh4K60UwM26emMESw8tLCHU=
 github.com/spf13/cobra v1.0.0/go.mod h1:/6GTrnGXV9HjY+aR4k0oJ5tcvakLuG6EuKReYlHNrgE=
