@@ -14,7 +14,6 @@ jobs:
     strategy:
       matrix:
         os: [macos-latest, windows-latest, ubuntu-latest]
-      fail-fast: false
     steps:
       - name: Setup go 1.14
         uses: actions/setup-go@v2
@@ -33,15 +32,8 @@ jobs:
         run: golangci-lint run --verbose --config test/.golangci.yml
         if: matrix.os == 'windows-latest'
 
-      - name: Setup Build
-        run: go generate
-      - name: Add Windows syso File
-        run: mv resources/artifactcollector.syso artifactcollector.syso
-        if: matrix.os == 'windows-latest'
-        shell: bash
       - name: Build zip-collector
-        run: |
-          go build .
+        run: go build .
         working-directory: zip-collector
       - name: Build autoruns-collector
         run: |
