@@ -13,7 +13,8 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [macos-latest, windows-latest, ubuntu-latest]
+        # os: [macos-latest, windows-latest, ubuntu-latest]
+        os: [windows-latest]
     steps:
       - name: Setup go 1.14
         uses: actions/setup-go@v2
@@ -42,6 +43,6 @@ jobs:
         working-directory: autoruns-collector
 
       - name: Run zip-collector
-        run: zip-collector.exe
+        run: .\zip-collector.exe
         if: matrix.os == 'windows-latest'
         working-directory: zip-collector
