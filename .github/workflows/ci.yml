@@ -13,8 +13,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        # os: [macos-latest, windows-latest, ubuntu-latest]
-        os: [windows-latest]
+        os: [macos-latest, windows-latest, ubuntu-latest]
     steps:
       - name: Setup go 1.14
         uses: actions/setup-go@v2
