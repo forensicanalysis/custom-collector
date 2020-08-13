@@ -40,3 +40,8 @@ jobs:
           go generate
           go build .
         working-directory: autoruns-collector
+
+      - name: Run zip-collector
+        run: zip-collector.exe
+        if: matrix.os == 'windows-latest'
+        working-directory: zip-collector
