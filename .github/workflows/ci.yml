@@ -67,7 +67,6 @@ jobs:
         run: |
           mkdir bin store
           mv zip-collector/zip-collector* bin
-          mv zip-collector/*.forensicstore store
         shell: bash
 
       - name: Upload zip-collector
@@ -75,8 +74,3 @@ jobs:
         with:
           name: zip-collector ${{ matrix.os }}
           path: bin
-      - name: Upload store
-        uses: actions/upload-artifact@master
-        with:
-          name: store ${{ matrix.os }}
-          path: store
