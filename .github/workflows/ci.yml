@@ -62,3 +62,21 @@ jobs:
         if: matrix.os == 'windows-latest'
         shell: bash
         working-directory: zip-collector
+
+      - name: Move Binary
+        run: |
+          mkdir bin store
+          mv zip-collector/zip-collector* bin
+          mv zip-collector/*.forensicstore store
+        shell: bash
+
+      - name: Upload zip-collector
+        uses: actions/upload-artifact@master
+        with:
+          name: zip-collector ${{ matrix.os }}
+          path: bin
+      - name: Upload store
+        uses: actions/upload-artifact@master
+        with:
+          name: store ${{ matrix.os }}
+          path: store
