@@ -57,7 +57,7 @@ jobs:
 
       - name: Run zip-collector
         run: |
-          .\zip-collector.exe
+          ./zip-collector.exe
           cat *.log
         if: matrix.os == 'windows-latest'
         shell: bash
