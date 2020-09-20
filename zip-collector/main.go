@@ -42,7 +42,7 @@ func main() {
 	defer fs.Close()
 
 	config := collection.Configuration{
-		Artifacts: []string{"WindowsEventLogs", "WindowsPrefetchFiles", "MacOSHostsFile"},
+		Artifacts: []string{"WindowsEventLogs", "WindowsPrefetchFiles", "MacOSHostsFile", "NTFSMFTFiles"},
 		FS:        fs,
 	}
 
