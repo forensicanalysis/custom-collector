@@ -58,8 +58,8 @@ github.com/forensicanalysis/artifactsgo v0.6.6/go.mod h1:MMPrG+vF07jjm7GWgVF1E2l
 github.com/forensicanalysis/forensicstore v0.12.1/go.mod h1:t/xpmXXSOLIriXM7NrrnT/5KTo6R7L9+9psIMgzcMEo=
 github.com/forensicanalysis/forensicstore v0.17.1 h1:Kq/MErrr1mura+feyranINHWuh82vy9vXkTB9l6QxY0=
 github.com/forensicanalysis/forensicstore v0.17.1/go.mod h1:G0iROQuB+eFW9lhyuNTfbSLSyojKAT2eFWIweRHbMT4=
-github.com/forensicanalysis/fslib v0.14.6-0.20200920200442-a62ab4ce5372 h1:TCsIQoW1MTImlukwJVbsfv0UUMel06PQ2yAxlY+dWPk=
-github.com/forensicanalysis/fslib v0.14.6-0.20200920200442-a62ab4ce5372/go.mod h1:3nYym5UdqoC/wx3su8lkkAwPM2xaa8kJDzyvlGgerDw=
+github.com/forensicanalysis/fslib v0.14.6 h1:TN58flLqPca230Hm2o0enOnnIIz7VIe3u9Sn98nEnF8=
+github.com/forensicanalysis/fslib v0.14.6/go.mod h1:3nYym5UdqoC/wx3su8lkkAwPM2xaa8kJDzyvlGgerDw=
 github.com/forensicanalysis/stixgo v0.1.0 h1:MC5qNS4Yr+nYk7zM2otFoBRB3FjkxskFShSXMS3N/Ic=
 github.com/forensicanalysis/stixgo v0.1.0/go.mod h1:0Lr/Rs373qJDVUguJXiLRd7N78nkkTbkd4h92OBXUkg=
 github.com/frankban/quicktest v1.6.0/go.mod h1:jaStnuzAqU1AJdCO0l53JDCJrVDKcS03DbaAcR7Ks/o=
