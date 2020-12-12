@@ -71,6 +71,8 @@ github.com/forensicanalysis/artifactlib v0.13.1 h1:mTZGtbKHwVNcndAMWBmVpKvzRTJJD
 github.com/forensicanalysis/artifactlib v0.13.1/go.mod h1:FdiGzYLnTKZy+uIXBuQIzFRuK0nGlGycH/7Ss9MNdHg=
 github.com/forensicanalysis/artifactlib v0.14.1 h1:+Sv6028xVyT0YPWoYVLMcsbou9D0h0cQP13o6JzSZws=
 github.com/forensicanalysis/artifactlib v0.14.1/go.mod h1:jZ9Sa6mmMyUpSi01caoFJO74S4ytV9T9liesozFVQW4=
+github.com/forensicanalysis/artifactlib v0.14.2 h1:nk2ooNv8Zw96HrSKv6A7SNTWhrht/UjPnygeYe9IXb8=
+github.com/forensicanalysis/artifactlib v0.14.2/go.mod h1:cQMIT+lQV38v7GqCza9OA9cemHPEA+Egti663ohsLBs=
 github.com/forensicanalysis/artifactsgo v0.6.6 h1:rMI7pJ7BD5+qGQywtpyWGqGO3fdYYRDvJruj2hJ/48M=
 github.com/forensicanalysis/artifactsgo v0.6.6/go.mod h1:MMPrG+vF07jjm7GWgVF1E2l3T0l/71Tza/4IdwyzdEM=
 github.com/forensicanalysis/forensicstore v0.12.1/go.mod h1:t/xpmXXSOLIriXM7NrrnT/5KTo6R7L9+9psIMgzcMEo=
@@ -154,6 +156,7 @@ github.com/imdario/mergo v0.3.7/go.mod h1:2EnlNZ0deacrJVfApfmtdGgDfMuh/nq6Ok1EcJ
 github.com/imdario/mergo v0.3.11/go.mod h1:jmQim1M+e3UYxmgPu/WyfjB3N3VflVyUjjjwH0dnCYA=
 github.com/inconshreveable/log15 v0.0.0-20180818164646-67afb5ed74ec/go.mod h1:cOaXtrgN4ScfRrD9Bre7U1thNq5RtJ8ZoP4iXVGRj6o=
 github.com/inconshreveable/log15 v0.0.0-20200109203555-b30bc20e4fd1/go.mod h1:cOaXtrgN4ScfRrD9Bre7U1thNq5RtJ8ZoP4iXVGRj6o=
+github.com/inconshreveable/log15 v0.0.0-20201112154412-8562bdadbbac/go.mod h1:cOaXtrgN4ScfRrD9Bre7U1thNq5RtJ8ZoP4iXVGRj6o=
 github.com/inconshreveable/mousetrap v1.0.0/go.mod h1:PxqpIevigyE2G7u3NXJIT2ANytuPF1OarO4DADm73n8=
 github.com/jonboulle/clockwork v0.1.0/go.mod h1:Ii8DK3G1RaLaWxj9trq07+26W01tbo22gdxWY5EU2bo=
 github.com/json-iterator/go v1.1.6/go.mod h1:+SdeFBvtyEkXs7REEP0seUULqWtbJapLOCVDaaPEHmU=
@@ -439,6 +442,7 @@ gopkg.in/yaml.v2 v2.2.8 h1:obN1ZagJSUGI0Ek/LBmuj4SNLPfIny3KsKFopxRdj10=
 gopkg.in/yaml.v2 v2.2.8/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
 gopkg.in/yaml.v2 v2.3.0 h1:clyUAQHOM3G0M3f5vQj7LuJrETvjVot3Z5el9nffUtU=
 gopkg.in/yaml.v2 v2.3.0/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
+gopkg.in/yaml.v2 v2.4.0/go.mod h1:RDklbk79AGWmwhnvt/jBztapEOGDOx6ZbXqjP6csGnQ=
 gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c h1:dUUwHk2QECo/6vqA44rthZ8ie2QXMNeKRTHCNY2nXvo=
 gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
 honnef.co/go/tools v0.0.0-20190102054323-c2f93a96b099/go.mod h1:rf3lG4BRIbNafJWhAfAdb/ePZxsR/4RtNHQocxwk9r4=
