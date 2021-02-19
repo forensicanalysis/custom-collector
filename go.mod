@@ -10,4 +10,4 @@ require (
 	github.com/spf13/afero v1.4.1
 )
 
-replace github.com/forensicanalysis/fslib => github.com/forensicanalysis/fslib v0.14.9
+replace github.com/forensicanalysis/fslib => github.com/forensicanalysis/fslib v0.15.0
