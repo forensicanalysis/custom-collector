@@ -30,7 +30,7 @@ jobs:
         uses: golangci/golangci-lint-action@v2
         with:
           version: v1.31
-          args: --verbose --config test/.golangci.yml
+          args: --verbose --config .github/.golangci.yml
         if: matrix.os == 'windows-latest'
 
   zip-collector:
