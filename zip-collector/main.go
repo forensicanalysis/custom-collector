@@ -27,8 +27,8 @@ import (
 
 	"github.com/forensicanalysis/artifactcollector/collection"
 	"github.com/forensicanalysis/artifactcollector/run"
+	"github.com/forensicanalysis/artifactcollector/zipwrite"
 	"github.com/forensicanalysis/artifactsgo"
-	"github.com/forensicanalysis/custom-collector/zip-collector/zipwrite"
 )
 
 func main() {
@@ -38,7 +38,7 @@ func main() {
 	}
 	defer f.Close()
 
-	fs := zipwrite.New(f)
+	var fs = zipwrite.New(f)
 	defer fs.Close()
 
 	config := collection.Configuration{
