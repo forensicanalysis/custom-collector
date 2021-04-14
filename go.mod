@@ -1,6 +1,6 @@
 module github.com/forensicanalysis/custom-collector
 
-go 1.14
+go 1.16
 
 require (
 	github.com/forensicanalysis/artifactcollector v0.16.2
