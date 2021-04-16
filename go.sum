@@ -50,10 +50,9 @@ github.com/dgryski/go-sip13 v0.0.0-20181026042036-e10d5fee7954/go.mod h1:vAd38F8
 github.com/fatih/color v1.7.0/go.mod h1:Zm6kSWBoL9eyXnKyktHP6abPY2pDugNf5KwzbycvMj4=
 github.com/fatih/structs v1.1.0 h1:Q7juDM0QtcnhCpeyLGQKyg4TOIghuNXrkL32pHAUMxo=
 github.com/fatih/structs v1.1.0/go.mod h1:9NiDSp5zOcgEDl+j00MP/WkGVPOlPRLejGD8Ga6PJ7M=
-github.com/forensicanalysis/artifactcollector v0.16.2 h1:ffsb8MlE3JTW8zqX4Qw6jrb8iUWTeHkh2CabgD0XVPI=
-github.com/forensicanalysis/artifactcollector v0.16.2/go.mod h1:OP+lf5ethJV+h2BFQfQGLHQGSbJoiGO3B1UxAv4erMM=
+github.com/forensicanalysis/artifactcollector v0.16.3 h1:+WGMea9tlsBzFrKUgl2teJV4GZcJ+1tu2ntK2g8nT9s=
+github.com/forensicanalysis/artifactcollector v0.16.3/go.mod h1:gyG+VdrH2qUBtWeUnSVI8fXmPWZEJkRg2THOPT//Uas=
 github.com/forensicanalysis/artifactlib v0.14.3/go.mod h1:cQMIT+lQV38v7GqCza9OA9cemHPEA+Egti663ohsLBs=
-github.com/forensicanalysis/artifactlib v0.15.1/go.mod h1:qgZmk9Hb6+WNoJ4TjNDHI0Q9D6Q/lxy1Yr7dMaaaB3k=
 github.com/forensicanalysis/artifactlib v0.15.2 h1:s4OyM97pa706/y1d9ielqrJOrN4RDKQjvj+scowR8VU=
 github.com/forensicanalysis/artifactlib v0.15.2/go.mod h1:qgZmk9Hb6+WNoJ4TjNDHI0Q9D6Q/lxy1Yr7dMaaaB3k=
 github.com/forensicanalysis/artifactsgo v0.6.7 h1:vnmGXS6z0FQ8RRZbQJ03cGeUbKO190b5SNOQVcti4Q4=
